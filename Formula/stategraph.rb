@@ -6,10 +6,10 @@ class Stategraph < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/stategraph/releases/releases/download/0.1.34/stategraph-macos-arm64.tar.gz"
-    sha256 "f5b847a7a24b8f49701a6edd1cfda0740b45f7e1a3bb24e32cb7c62afbab66e2"
+    sha256 "8b01884d521a8e1f198004baf6512a6e22214d8b978494557824f25d28882b66"
   else
     url "https://github.com/stategraph/releases/releases/download/0.1.34/stategraph-macos-amd64.tar.gz"
-    sha256 "454819f3e96e0f49607c8e34ea075821f4b88706de04fb11adc5ce4b2daf664b"
+    sha256 "e163536c99e4ce95d908fa28f907813655588a66d311dfbe3f92219b477ca6c2"
   end
 
   def install
