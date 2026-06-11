@@ -1,15 +1,15 @@
 class Stategraph < Formula
   desc "Terraform state management and visualization CLI"
   homepage "https://stategraph.com"
-  version "2.3.1"
+  version "2.3.2"
   license "STATEGRAPH-LICENSE"
 
   if Hardware::CPU.arm?
-    url "https://github.com/stategraph/releases/releases/download/2.3.1/stategraph-2.3.1-macos-arm64.tar.gz"
-    sha256 "9720cd8ae921a19c3e5fd87e2ea8226622ddccfb94e2ccd36580d0eea1a0ff7f"
+    url "https://github.com/stategraph/releases/releases/download/2.3.2/stategraph-2.3.2-macos-arm64.tar.gz"
+    sha256 "00bb82f44dac8e2cec11520f69944bed8811072d96a17e8d297aac7aabd3217c"
   else
-    url "https://github.com/stategraph/releases/releases/download/2.3.1/stategraph-2.3.1-macos-amd64.tar.gz"
-    sha256 "40b23b8d5a1faf5af5b28ca921350f7ea021f9d8a97bacc572ca5bc605e9e812"
+    url "https://github.com/stategraph/releases/releases/download/2.3.2/stategraph-2.3.2-macos-amd64.tar.gz"
+    sha256 "ba4bde476fa3abdd276366fd493646429500119d6394fd36bd38ff1794b072b9"
   end
 
   def install
