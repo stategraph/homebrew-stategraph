@@ -1,12 +1,12 @@
 class Stategraph < Formula
   desc "Terraform state management and visualization CLI"
   homepage "https://stategraph.com"
-  version "3.1.0"
+  version "3.1.1"
   license "STATEGRAPH-LICENSE"
   depends_on arch: :arm64
 
-  url "https://github.com/stategraph/releases/releases/download/3.1.0/stategraph-3.1.0-macos-arm64.tar.gz"
-  sha256 "46f02cfe19df37c419f8fba444ed4530c15bf2907177185ab9e5a08e81ef39dd"
+  url "https://github.com/stategraph/releases/releases/download/3.1.1/stategraph-3.1.1-macos-arm64.tar.gz"
+  sha256 "a0a475ce6ee5a7e8e034c9c25834b989400a4bff427f2d2f4d69b344037f521f"
 
   def install
     bin.install "stategraph"
